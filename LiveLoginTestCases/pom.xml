@@ -53,8 +53,7 @@
 				<version>2.18.1</version>
 				<configuration>
 
-					<suiteXmlFiles>
-						<suiteXmlFile>UnitTestNG.xml</suiteXmlFile>
+					<suiteXmlFiles>						
 						<suiteXmlFile>LiveLoginTestCases.xml</suiteXmlFile>						
 					</suiteXmlFiles>
 

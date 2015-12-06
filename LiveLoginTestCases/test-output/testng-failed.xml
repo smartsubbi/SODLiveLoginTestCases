@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Live Test Cases Suite]">
+  <parameter name="Category" value="Live Test Cases"/>
+  <test name="Live Tests(failed)">
+    <classes>
+      <class name="TestCases.TestCase3">
+        <methods>
+          <include name="setUp"/>
+          <include name="ValidNonAuthorisedParentLogin" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TestCase3 -->
+      <class name="TestCases.TestCase1">
+        <methods>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="ValidAuthorisedPlayerLogin" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCases.TestCase1 -->
+      <class name="TestCases.TestCase2">
+        <methods>
+          <include name="afterTest"/>
+          <include name="ValidAuthorisedParentLogin" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TestCase2 -->
+      <class name="TestCases.TestCase4">
+        <methods>
+          <include name="afterTest"/>
+          <include name="setUp"/>
+          <include name="ValidNonAuthorisedPlayerLogin" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TestCase4 -->
+    </classes>
+  </test> <!-- Live Tests(failed) -->
+</suite> <!-- Failed suite [Live Test Cases Suite] -->
